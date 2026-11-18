@@ -13,9 +13,6 @@ App de otimização Android que usa o Shizuku para rodar comandos com permissão
 - DPI e resolução revertem sozinhos em 10s se não confirmados
 - Cada comando tem tempo limite e é encerrado se travar
 
-## Como compilar
-Android Studio: abra a pasta e rode. Sem computador: use o GitHub Actions (workflow em `.github/workflows/build.yml` do repositório).
-
 ## Estrutura
 - `ui/ShizukuManager.kt`: estado, permissão e execução de comandos
 - `ui/OptimizerViewModel.kt`: ferramentas, validação, reversão automática
